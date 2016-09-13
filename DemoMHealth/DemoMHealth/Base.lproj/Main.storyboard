@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15G31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Aaf-nS-khn">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--iOS Test-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CtX-13-U38">
+                                <rect key="frame" x="15" y="79" width="345" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="elv-pH-dbp"/>
+                                </constraints>
+                                <state key="normal" title="Send Request Using Wifi"/>
+                                <connections>
+                                    <action selector="actionSendRequestUsingWifi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fE3-cI-BWv"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hAs-Dt-TlU">
+                                <rect key="frame" x="15" y="119" width="345" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="UHH-Ec-mnm"/>
+                                </constraints>
+                                <state key="normal" title="Send Request Using Cellunar Network"/>
+                                <connections>
+                                    <action selector="actionSendRequestUsingCellunarNetwork:" destination="BYZ-38-t0r" eventType="touchUpInside" id="M7g-yL-afM"/>
+                                </connections>
+                            </button>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Zq-jx-TEG">
+                                <rect key="frame" x="15" y="165" width="345" height="0.0"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" id="u5P-dq-aXb"/>
+                                </constraints>
+                                <state key="normal" title="Monitor Region"/>
+                                <connections>
+                                    <action selector="actionMonitorRegion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="gOW-LQ-yuI"/>
+                                </connections>
+                            </button>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="GJH-8m-5BJ">
+                                <rect key="frame" x="0.0" y="427" width="375" height="240"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="240" id="IOP-iK-x4d"/>
+                                </constraints>
+                            </mapView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="0bT-za-1ix" customClass="LoggerTextView">
+                                <rect key="frame" x="4" y="173" width="367" height="250"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="CtX-13-U38" secondAttribute="trailing" constant="15" id="183-MD-BL5"/>
+                            <constraint firstItem="0bT-za-1ix" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="4" id="1GX-ta-iKF"/>
+                            <constraint firstItem="GJH-8m-5BJ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="26s-oz-mNG"/>
+                            <constraint firstItem="CtX-13-U38" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="5vH-gN-H7u"/>
+                            <constraint firstItem="0bT-za-1ix" firstAttribute="top" secondItem="6Zq-jx-TEG" secondAttribute="bottom" constant="8" id="79a-O5-6cy"/>
+                            <constraint firstItem="hAs-Dt-TlU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="CfY-AA-OsE"/>
+                            <constraint firstAttribute="trailing" secondItem="GJH-8m-5BJ" secondAttribute="trailing" id="M0r-tF-BUb"/>
+                            <constraint firstAttribute="trailing" secondItem="6Zq-jx-TEG" secondAttribute="trailing" constant="15" id="MBU-PH-dh8"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="GJH-8m-5BJ" secondAttribute="bottom" id="SUc-SS-8FF"/>
+                            <constraint firstAttribute="trailing" secondItem="0bT-za-1ix" secondAttribute="trailing" constant="4" id="TyH-PM-0D0"/>
+                            <constraint firstItem="CtX-13-U38" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="15" id="cSL-7W-QHM"/>
+                            <constraint firstItem="hAs-Dt-TlU" firstAttribute="top" secondItem="CtX-13-U38" secondAttribute="bottom" constant="10" id="gyC-Rh-QMH"/>
+                            <constraint firstItem="6Zq-jx-TEG" firstAttribute="top" secondItem="hAs-Dt-TlU" secondAttribute="bottom" constant="16" id="mxi-zn-foG"/>
+                            <constraint firstItem="6Zq-jx-TEG" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="15" id="nS9-Hc-Isq"/>
+                            <constraint firstAttribute="trailing" secondItem="hAs-Dt-TlU" secondAttribute="trailing" constant="15" id="of9-WH-jxr"/>
+                            <constraint firstItem="GJH-8m-5BJ" firstAttribute="top" secondItem="0bT-za-1ix" secondAttribute="bottom" constant="4" id="vSK-ax-5xt"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="iOS Test" id="oJN-0F-AQc"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="mapView" destination="GJH-8m-5BJ" id="91t-9a-nnw"/>
+                        <outlet property="textViewLog" destination="0bT-za-1ix" id="a5W-az-126"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="38.5" y="319.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Nzv-51-FNn">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="Aaf-nS-khn" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ecm-oI-ag2">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" red="0.2274509804" green="0.23137254900000001" blue="0.23529411759999999" alpha="1" colorSpace="calibratedRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="BwK-aJ-Psq"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LQn-SP-y78" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-404" y="320"/>
+        </scene>
+    </scenes>
+</document>

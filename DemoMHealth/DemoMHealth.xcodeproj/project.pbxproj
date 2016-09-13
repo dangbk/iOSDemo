@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E5E9101E7EEA7A5307FFFBA /* libPods-DemoMHealth.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 76C32E17D32351CFF01CBE38 /* libPods-DemoMHealth.a */; };
+		AE04C7AC1D35CF01001D7F1F /* LoggerTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = AE04C7AB1D35CF01001D7F1F /* LoggerTextView.m */; };
+		AE0A3B721D3533920033E973 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0A3B711D3533920033E973 /* main.m */; };
+		AE0A3B751D3533920033E973 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0A3B741D3533920033E973 /* AppDelegate.m */; };
+		AE0A3B781D3533920033E973 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0A3B771D3533920033E973 /* ViewController.m */; };
+		AE0A3B7B1D3533920033E973 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0A3B791D3533920033E973 /* Main.storyboard */; };
+		AE0A3B7E1D3533920033E973 /* DemoMHealth.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AE0A3B7C1D3533920033E973 /* DemoMHealth.xcdatamodeld */; };
+		AE0A3B801D3533920033E973 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE0A3B7F1D3533920033E973 /* Assets.xcassets */; };
+		AE0A3B831D3533920033E973 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE0A3B811D3533920033E973 /* LaunchScreen.storyboard */; };
+		AE0A3BAD1D3537A60033E973 /* ICON4 Tower.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AE0A3BA51D3537A60033E973 /* ICON4 Tower.gpx */; };
+		AE0A3BAE1D3537A60033E973 /* Keangnam LandMark 72.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AE0A3BA61D3537A60033E973 /* Keangnam LandMark 72.gpx */; };
+		AE0A3BAF1D3537A60033E973 /* Cau Giay PostOffice.gpx in Resources */ = {isa = PBXBuildFile; fileRef = AE0A3BA71D3537A60033E973 /* Cau Giay PostOffice.gpx */; };
+		AE0A3BBA1D3539250033E973 /* Regions.plist in Resources */ = {isa = PBXBuildFile; fileRef = AE0A3BB91D3539250033E973 /* Regions.plist */; };
+		AE0A3BBC1D353A330033E973 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0A3BBB1D353A330033E973 /* CoreLocation.framework */; };
+		AE0A3BBE1D353A380033E973 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0A3BBD1D353A380033E973 /* MapKit.framework */; };
+		AE0A3BC11D353B010033E973 /* MHealthViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0A3BC01D353B010033E973 /* MHealthViewModel.m */; };
+		AE0A3BC71D3543330033E973 /* MKMapView+ZoomLevel.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0A3BC61D3543330033E973 /* MKMapView+ZoomLevel.m */; };
+		AE0A3BCB1D3557600033E973 /* APIClient.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0A3BCA1D3557600033E973 /* APIClient.m */; };
+		AE0A3BCE1D355ABD0033E973 /* CommonUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = AE0A3BCD1D355ABD0033E973 /* CommonUtils.m */; };
+		AE0A3BD01D355B150033E973 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE0A3BCF1D355B150033E973 /* SystemConfiguration.framework */; };
+		AE2E5D7B1D368CE80027A04D /* MHealthResponse+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2E5D781D368CE80027A04D /* MHealthResponse+CoreDataProperties.m */; };
+		AE2E5D7C1D368CE80027A04D /* MHealthResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2E5D7A1D368CE80027A04D /* MHealthResponse.m */; };
+		AE2E5D7F1D36A9FA0027A04D /* DBManager.m in Sources */ = {isa = PBXBuildFile; fileRef = AE2E5D7E1D36A9FA0027A04D /* DBManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		758E4D473789BD50C9420989 /* Pods-DemoMHealth.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMHealth.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMHealth/Pods-DemoMHealth.debug.xcconfig"; sourceTree = "<group>"; };
+		76C32E17D32351CFF01CBE38 /* libPods-DemoMHealth.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoMHealth.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		773ACAC1CB24A44083AFE52A /* Pods-DemoMHealth.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoMHealth.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoMHealth/Pods-DemoMHealth.release.xcconfig"; sourceTree = "<group>"; };
+		AE04C7AA1D35CF01001D7F1F /* LoggerTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = LoggerTextView.h; path = View/Customize/LoggerTextView.h; sourceTree = "<group>"; };
+		AE04C7AB1D35CF01001D7F1F /* LoggerTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = LoggerTextView.m; path = View/Customize/LoggerTextView.m; sourceTree = "<group>"; };
+		AE0A3B6D1D3533920033E973 /* DemoMHealth.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoMHealth.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0A3B711D3533920033E973 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE0A3B731D3533920033E973 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE0A3B741D3533920033E973 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE0A3B761D3533920033E973 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AE0A3B771D3533920033E973 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		AE0A3B7A1D3533920033E973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE0A3B7D1D3533920033E973 /* DemoMHealth.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoMHealth.xcdatamodel; sourceTree = "<group>"; };
+		AE0A3B7F1D3533920033E973 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE0A3B821D3533920033E973 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE0A3B841D3533920033E973 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE0A3BA51D3537A60033E973 /* ICON4 Tower.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "ICON4 Tower.gpx"; sourceTree = "<group>"; };
+		AE0A3BA61D3537A60033E973 /* Keangnam LandMark 72.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Keangnam LandMark 72.gpx"; sourceTree = "<group>"; };
+		AE0A3BA71D3537A60033E973 /* Cau Giay PostOffice.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "Cau Giay PostOffice.gpx"; sourceTree = "<group>"; };
+		AE0A3BB91D3539250033E973 /* Regions.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Regions.plist; sourceTree = "<group>"; };
+		AE0A3BBB1D353A330033E973 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		AE0A3BBD1D353A380033E973 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		AE0A3BBF1D353B010033E973 /* MHealthViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHealthViewModel.h; path = ViewModel/MHealthViewModel.h; sourceTree = "<group>"; };
+		AE0A3BC01D353B010033E973 /* MHealthViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHealthViewModel.m; path = ViewModel/MHealthViewModel.m; sourceTree = "<group>"; };
+		AE0A3BC31D353ECB0033E973 /* AppSetting.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppSetting.h; sourceTree = "<group>"; };
+		AE0A3BC51D3543330033E973 /* MKMapView+ZoomLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MKMapView+ZoomLevel.h"; path = "Helper/MKMapView+ZoomLevel.h"; sourceTree = "<group>"; };
+		AE0A3BC61D3543330033E973 /* MKMapView+ZoomLevel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MKMapView+ZoomLevel.m"; path = "Helper/MKMapView+ZoomLevel.m"; sourceTree = "<group>"; };
+		AE0A3BC91D3557600033E973 /* APIClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = APIClient.h; path = Service/APIClient.h; sourceTree = "<group>"; };
+		AE0A3BCA1D3557600033E973 /* APIClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = APIClient.m; path = Service/APIClient.m; sourceTree = "<group>"; };
+		AE0A3BCC1D355ABD0033E973 /* CommonUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommonUtils.h; path = Helper/CommonUtils.h; sourceTree = "<group>"; };
+		AE0A3BCD1D355ABD0033E973 /* CommonUtils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommonUtils.m; path = Helper/CommonUtils.m; sourceTree = "<group>"; };
+		AE0A3BCF1D355B150033E973 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AE2E5D771D368CE80027A04D /* MHealthResponse+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "MHealthResponse+CoreDataProperties.h"; path = "Model/CoreData/MHealthResponse+CoreDataProperties.h"; sourceTree = "<group>"; };
+		AE2E5D781D368CE80027A04D /* MHealthResponse+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "MHealthResponse+CoreDataProperties.m"; path = "Model/CoreData/MHealthResponse+CoreDataProperties.m"; sourceTree = "<group>"; };
+		AE2E5D791D368CE80027A04D /* MHealthResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MHealthResponse.h; path = Model/CoreData/MHealthResponse.h; sourceTree = "<group>"; };
+		AE2E5D7A1D368CE80027A04D /* MHealthResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MHealthResponse.m; path = Model/CoreData/MHealthResponse.m; sourceTree = "<group>"; };
+		AE2E5D7D1D36A9FA0027A04D /* DBManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DBManager.h; path = Service/DBManager.h; sourceTree = "<group>"; };
+		AE2E5D7E1D36A9FA0027A04D /* DBManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DBManager.m; path = Service/DBManager.m; sourceTree = "<group>"; };
+		AE47BB511D36441300EE212A /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE0A3B6A1D3533920033E973 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0A3BD01D355B150033E973 /* SystemConfiguration.framework in Frameworks */,
+				AE0A3BBE1D353A380033E973 /* MapKit.framework in Frameworks */,
+				AE0A3BBC1D353A330033E973 /* CoreLocation.framework in Frameworks */,
+				4E5E9101E7EEA7A5307FFFBA /* libPods-DemoMHealth.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE04C7A91D35CEDC001D7F1F /* Customize */ = {
+			isa = PBXGroup;
+			children = (
+				AE04C7AA1D35CF01001D7F1F /* LoggerTextView.h */,
+				AE04C7AB1D35CF01001D7F1F /* LoggerTextView.m */,
+			);
+			name = Customize;
+			sourceTree = "<group>";
+		};
+		AE0A3B641D3533920033E973 = {
+			isa = PBXGroup;
+			children = (
+				AE0A3B8A1D3536BB0033E973 /* GPX */,
+				AE0A3B6F1D3533920033E973 /* DemoMHealth */,
+				AE0A3B6E1D3533920033E973 /* Products */,
+				FBAA04AEC5E5AE374EC6B0B8 /* Pods */,
+				DF94A5E4B693ABA025EE382B /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE0A3B6E1D3533920033E973 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3B6D1D3533920033E973 /* DemoMHealth.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE0A3B6F1D3533920033E973 /* DemoMHealth */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3BC81D3557480033E973 /* Service */,
+				AE0A3BC41D3543160033E973 /* Helper */,
+				AE0A3BC21D353EB20033E973 /* Configuration */,
+				AE0A3BB81D35385B0033E973 /* Application */,
+				AE0A3BB71D3538490033E973 /* Model */,
+				AE0A3BB61D35383A0033E973 /* View */,
+				AE0A3BB51D35382F0033E973 /* ViewModel */,
+				AE0A3B7F1D3533920033E973 /* Assets.xcassets */,
+				AE0A3B811D3533920033E973 /* LaunchScreen.storyboard */,
+				AE0A3B841D3533920033E973 /* Info.plist */,
+				AE0A3BB91D3539250033E973 /* Regions.plist */,
+				AE0A3B7C1D3533920033E973 /* DemoMHealth.xcdatamodeld */,
+				AE0A3B701D3533920033E973 /* Supporting Files */,
+			);
+			path = DemoMHealth;
+			sourceTree = "<group>";
+		};
+		AE0A3B701D3533920033E973 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3B711D3533920033E973 /* main.m */,
+				AE47BB511D36441300EE212A /* PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE0A3B8A1D3536BB0033E973 /* GPX */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3BA51D3537A60033E973 /* ICON4 Tower.gpx */,
+				AE0A3BA61D3537A60033E973 /* Keangnam LandMark 72.gpx */,
+				AE0A3BA71D3537A60033E973 /* Cau Giay PostOffice.gpx */,
+			);
+			name = GPX;
+			path = DemoMHealth/GPX;
+			sourceTree = "<group>";
+		};
+		AE0A3BB51D35382F0033E973 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3BBF1D353B010033E973 /* MHealthViewModel.h */,
+				AE0A3BC01D353B010033E973 /* MHealthViewModel.m */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		AE0A3BB61D35383A0033E973 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AE04C7A91D35CEDC001D7F1F /* Customize */,
+				AE0A3B791D3533920033E973 /* Main.storyboard */,
+				AE0A3B761D3533920033E973 /* ViewController.h */,
+				AE0A3B771D3533920033E973 /* ViewController.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		AE0A3BB71D3538490033E973 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3BD71D3565F40033E973 /* CoreData */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		AE0A3BB81D35385B0033E973 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3B731D3533920033E973 /* AppDelegate.h */,
+				AE0A3B741D3533920033E973 /* AppDelegate.m */,
+			);
+			name = Application;
+			sourceTree = "<group>";
+		};
+		AE0A3BC21D353EB20033E973 /* Configuration */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3BC31D353ECB0033E973 /* AppSetting.h */,
+			);
+			name = Configuration;
+			sourceTree = "<group>";
+		};
+		AE0A3BC41D3543160033E973 /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3BC51D3543330033E973 /* MKMapView+ZoomLevel.h */,
+				AE0A3BC61D3543330033E973 /* MKMapView+ZoomLevel.m */,
+				AE0A3BCC1D355ABD0033E973 /* CommonUtils.h */,
+				AE0A3BCD1D355ABD0033E973 /* CommonUtils.m */,
+			);
+			name = Helper;
+			sourceTree = "<group>";
+		};
+		AE0A3BC81D3557480033E973 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3BC91D3557600033E973 /* APIClient.h */,
+				AE0A3BCA1D3557600033E973 /* APIClient.m */,
+				AE2E5D7D1D36A9FA0027A04D /* DBManager.h */,
+				AE2E5D7E1D36A9FA0027A04D /* DBManager.m */,
+			);
+			name = Service;
+			sourceTree = "<group>";
+		};
+		AE0A3BD71D3565F40033E973 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				AE2E5D771D368CE80027A04D /* MHealthResponse+CoreDataProperties.h */,
+				AE2E5D781D368CE80027A04D /* MHealthResponse+CoreDataProperties.m */,
+				AE2E5D791D368CE80027A04D /* MHealthResponse.h */,
+				AE2E5D7A1D368CE80027A04D /* MHealthResponse.m */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		DF94A5E4B693ABA025EE382B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AE0A3BCF1D355B150033E973 /* SystemConfiguration.framework */,
+				AE0A3BBD1D353A380033E973 /* MapKit.framework */,
+				AE0A3BBB1D353A330033E973 /* CoreLocation.framework */,
+				76C32E17D32351CFF01CBE38 /* libPods-DemoMHealth.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FBAA04AEC5E5AE374EC6B0B8 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				758E4D473789BD50C9420989 /* Pods-DemoMHealth.debug.xcconfig */,
+				773ACAC1CB24A44083AFE52A /* Pods-DemoMHealth.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE0A3B6C1D3533920033E973 /* DemoMHealth */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE0A3B871D3533920033E973 /* Build configuration list for PBXNativeTarget "DemoMHealth" */;
+			buildPhases = (
+				80D15EDE3F4B295567E39FAE /* 📦 Check Pods Manifest.lock */,
+				AE0A3B691D3533920033E973 /* Sources */,
+				AE0A3B6A1D3533920033E973 /* Frameworks */,
+				AE0A3B6B1D3533920033E973 /* Resources */,
+				725DD0D4CEF06ABCE7E84F39 /* 📦 Embed Pods Frameworks */,
+				E1F58F591B1D963EDCE25AE9 /* 📦 Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DemoMHealth;
+			productName = DemoMHealth;
+			productReference = AE0A3B6D1D3533920033E973 /* DemoMHealth.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE0A3B651D3533920033E973 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = DangLV;
+				TargetAttributes = {
+					AE0A3B6C1D3533920033E973 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = AE0A3B681D3533920033E973 /* Build configuration list for PBXProject "DemoMHealth" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE0A3B641D3533920033E973;
+			productRefGroup = AE0A3B6E1D3533920033E973 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE0A3B6C1D3533920033E973 /* DemoMHealth */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE0A3B6B1D3533920033E973 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0A3B831D3533920033E973 /* LaunchScreen.storyboard in Resources */,
+				AE0A3BAF1D3537A60033E973 /* Cau Giay PostOffice.gpx in Resources */,
+				AE0A3BAD1D3537A60033E973 /* ICON4 Tower.gpx in Resources */,
+				AE0A3BAE1D3537A60033E973 /* Keangnam LandMark 72.gpx in Resources */,
+				AE0A3B801D3533920033E973 /* Assets.xcassets in Resources */,
+				AE0A3B7B1D3533920033E973 /* Main.storyboard in Resources */,
+				AE0A3BBA1D3539250033E973 /* Regions.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		725DD0D4CEF06ABCE7E84F39 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMHealth/Pods-DemoMHealth-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		80D15EDE3F4B295567E39FAE /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E1F58F591B1D963EDCE25AE9 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DemoMHealth/Pods-DemoMHealth-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE0A3B691D3533920033E973 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE0A3B7E1D3533920033E973 /* DemoMHealth.xcdatamodeld in Sources */,
+				AE0A3BCB1D3557600033E973 /* APIClient.m in Sources */,
+				AE2E5D7C1D368CE80027A04D /* MHealthResponse.m in Sources */,
+				AE2E5D7F1D36A9FA0027A04D /* DBManager.m in Sources */,
+				AE0A3BCE1D355ABD0033E973 /* CommonUtils.m in Sources */,
+				AE0A3BC71D3543330033E973 /* MKMapView+ZoomLevel.m in Sources */,
+				AE0A3B781D3533920033E973 /* ViewController.m in Sources */,
+				AE0A3BC11D353B010033E973 /* MHealthViewModel.m in Sources */,
+				AE0A3B751D3533920033E973 /* AppDelegate.m in Sources */,
+				AE04C7AC1D35CF01001D7F1F /* LoggerTextView.m in Sources */,
+				AE2E5D7B1D368CE80027A04D /* MHealthResponse+CoreDataProperties.m in Sources */,
+				AE0A3B721D3533920033E973 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		AE0A3B791D3533920033E973 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0A3B7A1D3533920033E973 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE0A3B811D3533920033E973 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE0A3B821D3533920033E973 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE0A3B851D3533920033E973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE0A3B861D3533920033E973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE0A3B881D3533920033E973 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 758E4D473789BD50C9420989 /* Pods-DemoMHealth.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takashi Sugawara (X8TF8N5C2K)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DemoMHealth/PrefixHeader.pch;
+				INFOPLIST_FILE = DemoMHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danglv.mhealthtest.DemoMHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "487828e1-e722-4abc-97d6-ec89007ee0ca";
+			};
+			name = Debug;
+		};
+		AE0A3B891D3533920033E973 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 773ACAC1CB24A44083AFE52A /* Pods-DemoMHealth.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Takashi Sugawara (X8TF8N5C2K)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DemoMHealth/PrefixHeader.pch;
+				INFOPLIST_FILE = DemoMHealth/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.danglv.mhealthtest.DemoMHealth;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "487828e1-e722-4abc-97d6-ec89007ee0ca";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE0A3B681D3533920033E973 /* Build configuration list for PBXProject "DemoMHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0A3B851D3533920033E973 /* Debug */,
+				AE0A3B861D3533920033E973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE0A3B871D3533920033E973 /* Build configuration list for PBXNativeTarget "DemoMHealth" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE0A3B881D3533920033E973 /* Debug */,
+				AE0A3B891D3533920033E973 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		AE0A3B7C1D3533920033E973 /* DemoMHealth.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				AE0A3B7D1D3533920033E973 /* DemoMHealth.xcdatamodel */,
+			);
+			currentVersion = AE0A3B7D1D3533920033E973 /* DemoMHealth.xcdatamodel */;
+			path = DemoMHealth.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = AE0A3B651D3533920033E973 /* Project object */;
+}

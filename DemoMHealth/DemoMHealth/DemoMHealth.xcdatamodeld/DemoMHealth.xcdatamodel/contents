@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10171" systemVersion="15E65" minimumToolsVersion="Automatic">
+    <entity name="MHealthResponse" representedClassName="MHealthResponse" syncable="YES">
+        <attribute name="requestDate" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="requestStatus" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="response" optional="YES" attributeType="Transformable" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="MHealthResponse" positionX="-63" positionY="-18" width="128" height="90"/>
+    </elements>
+</model>

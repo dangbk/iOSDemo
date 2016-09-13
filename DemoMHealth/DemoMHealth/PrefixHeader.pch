@@ -1,0 +1,28 @@
+//
+//  PrefixHeader.pch
+//  DemoMHealth
+//
+//  Created by DangLV on 13/07/2016.
+//  Copyright © 2016 DangLV. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import "AppDelegate.h"
+#import "AppSetting.h"
+#import <MagicalRecord/MagicalRecord.h>
+#import "APIClient.h"
+#import "DBManager.h"
+#import "CommonUtils.h"
+#import "MBProgressHUD.h"
+#endif
+
+#endif /* PrefixHeader_pch */
